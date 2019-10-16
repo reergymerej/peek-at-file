@@ -9,3 +9,5 @@ curl \
   --data-binary @spider.jpg \
    https://jex-peek-at-file.herokuapp.com | tee output.txt
 ```
+
+If the client requests index, let's give them some html.

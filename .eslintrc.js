@@ -39,5 +39,6 @@ module.exports = {
     "complexity": [
       "warn", 3
     ],
+    "no-console": 0,
   }
 }
