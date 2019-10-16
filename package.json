@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "start": "./node_modules/@babel/node/bin/babel-node.js src/index.js",
-    "start:dev": "nodemon ./node_modules/@babel/node/bin/babel-node.js src/index.js",
+    "start": "node lib/index.js",
+    "dev": "nodemon ./node_modules/@babel/node/bin/babel-node.js src/index.js",
     "test": "jest src --config jest.config.js",
     "lint": "eslint src",
     "build": "babel src -d lib --ignore '**/*.test.js,__mocks__'",
